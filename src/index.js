@@ -3,7 +3,8 @@ import './style.sass';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import $ from 'jquery';
+import './assets/images/card1-gift.jpg';
+import './assets/images/card2-data.jpg';
 
 window.addEventListener('load', function() {
   // Fetch all the forms we want to apply custom Bootstrap validation styles to

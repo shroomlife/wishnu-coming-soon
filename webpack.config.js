@@ -1,5 +1,6 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 	mode: 'development', // "production" | "development" | "none"
@@ -53,8 +54,10 @@ module.exports = {
                  // In options we can set different things like format
                  // and directory to save
                  options: {
-                   outputPath: 'images'
-                 }
+                  outputPath: "assets/images",
+                  name: '[name].[ext]'
+                }
+                 
                }
              ]
       }
