@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/images/card1-gift.jpg';
 import './assets/images/card2-data.jpg';
 
+import './assets/favicon.ico';
+
 window.addEventListener('load', function() {
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
   var forms = document.getElementsByClassName('needs-validation');

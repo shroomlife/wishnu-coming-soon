@@ -45,7 +45,7 @@ module.exports = {
       },
       {
         // Now we apply rule for images
-        test: /\.(png|jpe?g|gif|svg)$/,
+        test: /\.(png|jpe?g|gif|svg|ico)$/,
         use: [
                {
                  // Using file-loader for these files
@@ -54,7 +54,6 @@ module.exports = {
                  // In options we can set different things like format
                  // and directory to save
                  options: {
-                  outputPath: "assets/images",
                   name: '[name].[ext]'
                 }
                  
