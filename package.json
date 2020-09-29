@@ -1,15 +1,28 @@
 {
   "name": "wishnu-coming-soon",
-  "version": "1.0.0",
-  "description": "the wishnu coming soon page",
-  "main": "index.js",
-  "repository": "git@github.com:shroomlife/wishnu-coming-soon.git",
-  "author": "shroomlife",
-  "license": "Apache-2.0",
+  "version": "1.0.1",
   "private": false,
+  "description": "the wishnu coming soon page",
+  "repository": "git@github.com:shroomlife/wishnu-coming-soon.git",
+  "license": "Apache-2.0",
+  "author": "shroomlife",
+  "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server"
+  },
+  "resolutions": {
+    "acorn": ">= 6.4.1",
+    "elliptic": ">= 6.5.3",
+    "http-proxy": ">= 1.18.1",
+    "jquery": ">= 3.5.0",
+    "kind-of": ">= 6.0.3",
+    "lodash": ">= 4.17.19",
+    "minimist": ">= 1.2.3",
+    "node-forge": ">= 0.10.0",
+    "serialize-javascript": ">= 2.1.1",
+    "websocket-extensions": ">= 0.1.4",
+    "yargs-parser": ">= 13.1.2"
   },
   "dependencies": {
     "@babel/core": "^7.6.2",
